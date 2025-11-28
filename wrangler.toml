@@ -1,0 +1,14 @@
+name = "colegiosync"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+[vars]
+ENVIRONMENT = "production"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "colegiosync-db"
+database_id = "4f58ee63-456b-44b5-b925-24ef6c5a9b32"
+
+# Note: Frontend will be served separately in development
+# For production, use Cloudflare Pages for the frontend
